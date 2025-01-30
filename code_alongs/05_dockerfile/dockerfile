@@ -10,5 +10,5 @@ COPY . .
 # instruction layer - installing packages (runs bash command) 
 RUN pip install -r requirements.txt
 
-# instruction layer - bash command to run when container is spun up
+# instruction layer - bash command to run when container is spun up 
 CMD [ "python", "main.py" ]

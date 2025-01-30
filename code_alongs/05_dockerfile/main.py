@@ -1,5 +1,5 @@
 from pathlib import Path
-import pandas as pd
+from pandas import pandas
 
 data_path = Path(__file__).parent / "data"
 
