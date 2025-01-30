@@ -8,4 +8,4 @@ print(data_path / "prog_book.csv")
 df = pd.read_csv(data_path / "prog_book.csv")
 print(df.head())
 
-
+print(df.info())
