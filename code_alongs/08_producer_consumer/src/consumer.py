@@ -26,6 +26,5 @@ sdf["length"] = sdf["word"].apply(lambda word: len(word))
 
 sdf.update(lambda row: print(f"Output: {row}"))
 
-sdf = sdf[]
 if __name__ == '__main__':
     app.run()
